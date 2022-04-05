@@ -1,0 +1,50 @@
+:root { /* VARIÁVEIS PARA USO CONTÍNUO DO ARQUIVO - Bom para guardar cores principais*/
+    --vermelho: #f50303;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ELEMENTOS BASE */
+
+body {
+    background: var(--preta); /* Interessante para usos futuros*/
+    font-family: 'Times New Roman', Times, serif;
+    color:#FFF
+}
+
+/* HEADER */
+
+header .logo {
+    color: var(--vermelho);
+    font-weight: 700;
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+/* FILME PRINCIPAL - CAPA */
+
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../assets/img/capa-babel.jpg");
+    height: 500px;
+    overflow: auto;
+}
+
+.titulo {
+    font-size: 40px;
+}
