@@ -9,6 +9,18 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 700px){
+    header .container-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+
+    }
+}
+
 /* ELEMENTOS BASE */
 
 body {
@@ -18,6 +30,7 @@ body {
 }
 
 /* HEADER */
+
 
 header .logo {
     color: var(--vermelho);
@@ -38,13 +51,57 @@ header nav a:hover {
 
 /* FILME PRINCIPAL - CAPA */
 
+.container {
+    margin-left: 10px;
+    width: 50%;
+}
+
 .filme-principal {
     font-size: 20px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../assets/img/capa-babel.jpg");
-    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
     overflow: auto;
 }
 
+.filme-principal .container-fluid {
+    width: 75%;
+}
+
 .titulo {
+    margin-top: 10%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.descricao {
+    margin-left: 0;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:#FFF;
+    padding: 15px 30px;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.botao i {
+    margin-right: 10px;
+}
+
+/* CARROSEL DE IMAGENS */
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
