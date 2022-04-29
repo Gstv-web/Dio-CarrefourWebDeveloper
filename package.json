@@ -1,0 +1,9 @@
+{
+  "name": "reactTest",
+  "version": "1.0.0",
+  "description": "Testando React e Yarn",
+  "main": "index.js",
+  "repository": "https://github.com/Gstv-web/Dio-CarrefourWebDeveloper.git",
+  "author": "José Gustavo Oliveira da Silva <gustavo.myw@live.com>",
+  "license": "MIT"
+}

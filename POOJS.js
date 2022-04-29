@@ -30,3 +30,5 @@ class Meal { // criei um construtor para a classe "Meal"
 
 let meal = new Meal('pizza'); // criei uma instancia da classe "Meal"
 console.log(meal.eat()); // chamei o metodo "eat" que recebeu o parametro "pizza"
+
+
