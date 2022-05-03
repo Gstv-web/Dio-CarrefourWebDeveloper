@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/Gstv-web/Dio-CarrefourWebDeveloper.git",
   "author": "José Gustavo Oliveira da Silva <gustavo.myw@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1"
+  }
 }
